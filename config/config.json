@@ -1,0 +1,22 @@
+{
+  "Server": {
+    "Host": "0.0.0.0:8888",
+    "Domain": "127.0.0.1"
+  },
+  "Postgres": {
+    "Host": "localhost",
+    "User": "postgres",
+    "Port": "5432",
+    "Password": "54321",
+    "DBName": "bank_db"
+  },
+  "Redis": {
+    "Host": "localhost",
+    "Port": "6379",
+    "Password": "",
+    "DB": 0
+  },
+  "SessionSettings": {
+    "SessionTTLSeconds": 600
+  }
+}
