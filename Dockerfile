@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 FROM golang:1.22.5
-LABEL authors="maxim"
+LABEL authors="dmitry"
 
 WORKDIR /app
 
